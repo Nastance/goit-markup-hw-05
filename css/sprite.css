@@ -1,0 +1,119 @@
+/* Header */
+
+.contact-us .link {
+  display: block;
+  align-items: center;
+}
+
+.contact-us .icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+/* Features  */
+
+.feature-list .background-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-list .icon {
+  width: 70px;
+  height: 70px;
+  /* padding: 25px 100px; */
+}
+
+/* Team */
+
+.social-networks .link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-networks .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-grey);
+}
+
+.social-networks .link:hover,
+.social-networks .link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-networks .link:hover .icon,
+.social-networks .link:focus .icon {
+  fill: var(--primary-white-color);
+}
+
+/* Clients */
+
+.clients-list .icon {
+  fill: var(--icon-grey);
+}
+
+.clients-list .link:hover,
+.clients-list .link:focus {
+  border-color: var(--accent-color);
+}
+
+.clients-list .link:hover .icon,
+.clients-list .link:focus .icon {
+  fill: var(--accent-color);
+}
+
+/* Footer */
+
+.footer-social-networks .link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-networks .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-grey);
+}
+
+.footer-social-networks .link:hover,
+.footer-social-networks .link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-networks .link:hover .icon,
+.footer-social-networks .link:focus .icon {
+  fill: var(--primary-white-color);
+}
+
+.field-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.field-button .icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+
+  fill: currentColor;
+}
