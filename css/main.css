@@ -98,6 +98,10 @@ img {
   color: var(--logo-black-color);
 }
 
+.logo .white {
+  color: var(--primary-white-color)
+}
+
 .main-nav {
   display: flex;
   align-items: center;
