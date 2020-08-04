@@ -97,10 +97,6 @@
   background-color: var(--accent-color);
 }
 
-.footer-social-networks .link:hover .icon,
-.footer-social-networks .link:focus .icon {
-  fill: var(--primary-white-color);
-}
 
 .field-button {
   color: var(--primary-white-color);
