@@ -586,6 +586,8 @@ img {
 }
 
 .galery-info {
+  padding-left: 24px;
+  padding-right: 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -614,6 +616,7 @@ img {
 .galery .about-title {
   margin-top: 4px;
   margin-bottom: 0;
+  padding-bottom: 20px;
 
   color: var(--information-text-color);
   font-size: 16px;
