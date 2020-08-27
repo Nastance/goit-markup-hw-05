@@ -709,30 +709,6 @@ footer {
   /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.field {
-  display: flex;
-}
-
-.contacts-form {
-  color: var(--secondary-footer-text-color);
-  font-size: 16px;
-  line-height: 1.87;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.field-button {
-  padding: 0;
-  border: none;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-
-  border-radius: 4px;
-}
-
 .footer-social-networks .link {
   width: 44px;
   height: 44px;
@@ -758,6 +734,30 @@ footer {
 .footer-social-networks .link:focus {
   background-color: var(--accent-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.field {
+  display: flex;
+}
+
+.contacts-form {
+  color: var(--secondary-footer-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.field-button {
+  padding: 0;
+  border: none;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  border-radius: 4px;
 }
 
 .field-button {
