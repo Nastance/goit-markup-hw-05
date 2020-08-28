@@ -533,7 +533,7 @@ img {
   line-height: 1.62;
 }
 
-.nav-galery .button.current {
+.nav-galery .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   /* border-color: var(--accent-color); */
